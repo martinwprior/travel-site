@@ -1,109 +1,453 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
-  <title>Clear View Escapes</title>
-  <meta name="keywords" content="Travel planning, travel bundles, travel escapes, affordable travel">
-  <meta name="description" content="Your clarify. One trip away. We create soul restoring journeys that inspire you to be you.">
+    <title>Doc</title>
+    <link rel="shortcut icon" href="images/favicons/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <header>
-    <img src="assets/images/icons/clear-view-escapes.svg">
-    <a href="#">Get in Touch</a>
-    <nav>
-      <ul>
-        <li><a href="#our-beginning">Our Beginning</a></li>
-        <li><a href="#features">Features</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <div class="large-hero">
-    <img src="assets/images/hero--large.jpg">
-    <div class='large-hero__text-content'>                                                           <!-- text in div so we can position it over the image -->
-      <h1>Your clarity.</h1>
-      <h2>One trip away.</h2>
-      <p>We create soul restoring journeys that inspire you to be you.</p>
-      <p><a href="#">Get Started Today</a></p>
-    </div>
+    <section id="header">
+        <a href="#"><img src="images/wbob-logo.png" class="logo" alt="logo" style="width:45px;height:45px;"</a>
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+    </section>
+    <section id="hero">
+        <h4>Fresh Organic Bread</h4>
+        <h2>From Freshly Milled Wheat</h2>
+        <h1>Whitebrickoven Bakery</h1>
+        <button>Order Now</button>
+    </section>
     
-  </div>
+    <section id="product1" class="section-p1">
+        <h2>Featured Bakes</h2>
+        <p>Sourdough Loaves</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="images/farmers-loaf.png" alt="">
+                <div class="des">
+                    <span>vegan</span>
+                    <h5>Farmers Loaf</h5>
+                    
+                    <h4>RM 20.00</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="images/tinned.png" alt="">
+                <div class="des">
+                    <span>vegan</span>
+                    <h5>Sandwich Loaf</h5>
+                    
+                    <h4>RM 20.00</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="images/sandwich-loaf.png" alt="">
+                <div class="des">
+                    <span>vegetarian</span>
+                    <h5>Soft Wholemeal Sandwich Loaf</h5>
+                    
+                    <h4>RM 20.00</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="images/olive-sticks.png" alt="">
+                <div class="des">
+                    <span>vegan</span>
+                    <h5>3 X Olive Sticks</h5>
+                    
+                    <h4>RM 20.00</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="images/cornish-pasty.png" alt="">
+                <div class="des">
+                    <span>contains halal beef</span>
+                    <h5>Cornish Pasty</h5>
+                    
+                    <h4>RM 20.00</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="images/meat-pie.png" alt="">
+                <div class="des">
+                    <span>contains halal beef</span>
+                    <h5>Beef Pie</h5>
+                    
+                    <h4>RM 20.00</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="images/croissant.png" alt="">
+                <div class="des">
+                    <span>vegetarian</span>
+                    <h5>Sourdough Croissant</h5>
+                    
+                    <h4>RM 6.00</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="images/pain-au-chocolat.png" alt="">
+                <div class="des">
+                    <span>vegetarian</span>
+                    <h5>Pain au Chocolat</h5>
+                    
+                    <h4>RM 6.00</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+        </div>
+    </section>  
 
-  <div id="our-beginning">
-    <h2>The first trip we planned was our own.</h2>
-    <h3>Ever since, we&rsquo;ve been working to make travel better for everyone.</h3>
-    <img src="assets/images/first-trip.jpg" alt="Couple walking down a street.">
-    <img src="assets/images/our-start.jpg" alt="Our founder, Jane Doe">
-    <h2>Here&rsquo;s how we got started&hellip;</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <a href="#">quis nostrud exercitation</a> ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <p>Duis aute irure dolor in <strong>reprehenderit in</strong> voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum velit esse cillum <strong>dolore eu fugiat.</strong></p>
-  </div>
+ <!-- ======= Shop Section ======= -->
+ <section id="services" class="services section-bg">
+    <!--   <div class="container" data-aos="fade-up"> -->
+         <div class="container">
+ 
+         <div class="text-center">
+           <h3>Pre-Order Shop</h3>
+ 
+           <div class="sr-element sr-products" data-embed="multiple_products"><script type="application/json">{
+             "publishable_key": "sr_live_pk_8b9eff0f47aa723491cba759e32a4501403e",
+             "options": {
+                 "products_to_display": "all",
+                 "categories": [],
+                 "product_size": "medium",
+                 "image_dimension_value": "crop",
+                 "image_aspect_ratio": "portrait",
+                 "button_style": "standard",
+                 "variation_style": "on_hover",
+                 "open_product_in": "in_page",
+                 "button_position": "inline",
+                 "product_default_sorting_order": "product_order",
+                 "product_pagination_limit": "12",
+                 "hide_out_of_stock": "0"
+             },
+             "includes": {
+                 "show_search_box": "1",
+                 "show_sort_by": "1",
+                 "show_per_page": "1",
+                 "show_category_dropdown": "1",
+                 "show_currency_dropdown": "1",
+                 "show_language_dropdown": "1",
+                 "show_product_filters": "1",
+                 "show_product_name": "1",
+                 "show_product_price": "1",
+                 "show_product_image": "1",
+                 "show_product_summary": "1",
+                 "open_modal_on_image_click": "1",
+                 "show_view_product_button": "1",
+                 "show_add_to_cart_button": "1",
+                 "show_min_max_order_quantity": "1",
+                 "show_sale": "0",
+                 "show_free_shipping": "0",
+                 "show_new_product": "1",
+                 "show_digital_download": "0",
+                 "show_pwyw": "0",
+                 "image_swap": "1",
+                 "show_button_icons": "1"
+             },
+             "product_popup": {
+                 "show_product_name": "1",
+                 "show_product_price": "1",
+                 "show_product_summary": "1",
+                 "show_product_description": "1",
+                 "show_product_image": "1",
+                 "show_select_quantity": "1",
+                 "show_image_thumbnails": "1",
+                 "show_product_reviews": "1",
+                 "show_product_sku": "1",
+                 "show_product_categories": "1",
+                 "show_social_sharing_icons": "1",
+                 "show_related_products": "1",
+                 "thumbnail_layout": "horizontal_below",
+                 "image_dimension_value": "crop",
+                 "image_aspect_ratio": "portrait",
+                 "variation_styling": "dropdown",
+                 "show_min_max_order_quantity": "1",
+                 "show_sale": "1",
+                 "show_free_shipping": "1",
+                 "show_new_product": "1",
+                 "show_digital_download": "1",
+                 "show_pwyw": "1",
+                 "show_product_tabs": "1",
+                 "image_zoom": "1",
+                 "lightbox_gallery": "1"
+             },
+             "styles": {
+                 "align_content": "center",
+                 "product_title": "#314d5d",
+                 "product_price": "#2d2d2d",
+                 "product_summary": "#777777",
+                 "button_background": "#bf9c9b",
+                 "button_color": "#ffffff",
+                 "view_product_button_background": "#bf9c9b",
+                 "view_product_button_color": "#ffffff",
+                 "view_cart_button_background": "#233642",
+                 "view_cart_button_color": "#ffffff",
+                 "product_background": "#ffffff",
+                 "modal_background": "#ffffff",
+                 "button_font_weight": "normal",
+                 "popup": {
+                     "colors": {
+                         "product_title": "#333",
+                         "product_price": "#666666",
+                         "product_summary": "#666666",
+                         "button_background": "#233642",
+                         "button_color": "#ffffff",
+                         "product_active_tab_background": "#f5f5f5"
+                     }
+                 },
+                 "embed_width": "1420",
+                 "product_spacing": "21",
+                 "button_radius": "7",
+                 "embed_margin": "5",
+                 "product_padding": "7"
+             }
+         }</script></div><script async src="https://cdn.shoprocket.io/loader.js"></script>
+         
+ 
+       </div>
+     </section><!-- End Shop Section -->
 
-  <div id="features">
-    <img src="assets/images/icons/star.svg">
-    <h2>Our Features</h2>
+
+
+
+      <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
   
-    <img src="assets/images/icons/rain.svg">
-    <h3>We&rsquo;ll Watch the Weather</h3>
-    <p>Download our app and we&rsquo;ll send you a notice if it&rsquo;s about to rain in the next 20 minutes around your current location. A good rain can be refreshing, but sometimes you just want to stay dry.</p>
+          <div class="section-title">
+            <h2>Portfolio</h2>
+            <p>A selection of images from the last 20 years, providing us with a reminder of our products and you our customers.</p>
+          </div>
+  
+          <div class="row" data-aos="fade-up" data-aos-delay="150">
+            <div class="col-lg-12 d-flex justify-content-center">
+     <!--         <ul id="portfolio-flters">
+                <li data-filter="*" class="filter-active">All</li>
+                <li data-filter=".filter-app">App</li>
+                <li data-filter=".filter-card">Card</li>
+                <li data-filter=".filter-web">Web</li>
+              </ul> -->
+            </div>
+          </div>
+  
+          <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="300">
+  
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img src="images/portfolio/me-jl.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Baker&JustLife</h4>
+                  
+                  <div class="portfolio-links">
+                    <a href="images/portfolio/me-jl.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Baker&JustLife"><i class="bx bx-plus"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img src="images/portfolio/folding pai-au-chocolat.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Forming Pain au chocolat</h4>
+                  <div class="portfolio-links">
+                    <a href="images/portfolio/folding pai-au-chocolat.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Pain au chocolat"><i class="bx bx-plus"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img src="images/portfolio/rising-dough-broad.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Dough rising</h4>
+                  <div class="portfolio-links">
+                    <a href="images/portfolio/rising-dough-broad.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Rising sourdough"><i class="bx bx-plus"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-wrap">
+                <img src="images/portfolio/milling.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Milling flour</h4>
+                  <div class="portfolio-links">
+                    <a href="images/portfolio/milling.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Milling"><i class="bx bx-plus"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img src="images/portfolio/chickens.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Our chickens</h4>
+                  <div class="portfolio-links">
+                    <a href="images/portfolio/chickens.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Chickens (not to be eaten)"><i class="bx bx-plus"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img src="images/portfolio/xmas-pie.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Chicken and Stuffing Pie</h4>
+                  <div class="portfolio-links">
+                    <a href="images/portfolio/xmas-pie.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Chicken Pie"><i class="bx bx-plus"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-wrap">
+                <img src="images/portfolio/classes.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Bread Making classes</h4>
+                  <div class="portfolio-links">
+                    <a href="images/portfolio/classes.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Baking classes"><i class="bx bx-plus"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-wrap">
+                <img src="images/portfolio/justlife-pop-up.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Pop-up Tropicana Avenue</h4>
+                  <div class="portfolio-links">
+                    <a href="images/portfolio/justlife-pop-up.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="pop-up at justlife Tropicana Avenue"><i class="bx bx-plus"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img src="images/portfolio/me-and-jl-truck.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Baker & JustLife</h4>
+                  <div class="portfolio-links">
+                    <a href="images/portfolio/me-jl.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="justlife delivery truck"><i class="bx bx-plus"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+          </div>
+  
+        </div>
+      </section><!-- End Portfolio Section -->
+      <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up">
+  
+          <div class="section-title">
+            <h2>Contact</h2>
+            <p>We are always pleased to meet people, but we suggest you call ahead so we can provide you directions and, of course, to check we are available.</p>
+          </div>
+  
+      
+          <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.6026236021808!2d101.52262920000001!3d3.1986179999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc5b319d5db693%3A0x5b30cf7c8849e0e4!2sWhitebrickovenbakery!5e0!3m2!1sen!2smy!4v1680922670073!5m2!1sen!2smy" width="1300" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="row mt-5">
+  
+            <div class="col-lg-4">
+              <div class="info">
+                <div class="address">
+                  <i class="bi bi-geo-alt"></i>
+                  <h4>Location:</h4>
+                  <p>1675a-1 Jalan Gajah 14, Kampong Kubu Gajah, 47000 Sungai Buloh, Selangor</p>
+                </div>
+  
+                <div class="email">
+                  <i class="bi bi-envelope"></i>
+                  <h4>Email:</h4>
+                  <p>martinwprior@gmail.com</p>
+                </div>
+  
+                <div class="phone">
+                  <i class="bi bi-phone"></i>
+                  <h4>Call:</h4>
+                  <p>+60 18-364 8703</p>
+                </div>
+  
+              </div>
+  
+            </div>
+  
+            
+  
+          </div>
+  
+        </div>
+      </section><!-- End Contact Section -->
+      <footer id="footer">
 
-    <img src="assets/images/icons/globe.svg">
-    <h3>Global Guides</h3>
-    <p>We&rsquo;ve scoured the entire planet for the best retreats and beautiful vistas. If there&rsquo;s a corner of the world you want to escape to we know the most scenic and inspiring locations.</p>
+    
 
-    <img src="assets/images/icons/wifi.svg">
-    <h3>Wi-Fi Waypoints</h3>
-    <p>We only send you on trips to places we can personally vouch for as being amazing. Which means we&rsquo;ve mapped out where local wi-fi spots are and marked them in our app&rsquo;s map view.</p>
+        <div class="container d-md-flex py-4">
+    
+          <div class="me-md-auto text-center text-md-start">
+            <div class="copyright">
+              &copy; Copyright <strong><span>OnePage</span></strong>. All Rights Reserved
+            </div>
+            <div class="credits">
+              <!-- All the links in the footer should remain intact. -->
+              <!-- You can delete the links only if you purchased the pro version. -->
+              <!-- Licensing information: https://bootstrapmade.com/license/ -->
+              <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/ -->
+              Designed by <a href="https://bootstrapmade.com/">BootstrapMade and Martin W. Prior</a>
+            </div>
+          </div>
+         
+        </div>
+      </footer><!-- End Footer -->
+    <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
 
-    <img src="assets/images/icons/fire.svg">
-    <h3>Survival Kit</h3>
-    <p>Everytime you book an escape with us we send you a survival kit with the finest materials. The kit will allow you to setup a tent, start a fire, scratch your own back and lower your taxes.</p>
-  </div>
-
-  <div id="testimonials">
-    <img src="assets/images/icons/comment.svg">
-    <h2>Real Testimonials</h2>
-
-    <img src="assets/images/testimonial-jane.jpg">
-    <h3>Jane Doe</h3>
-    <h3>9 Time Escaper</h3>
-    <p>&ldquo;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&rdquo;</p>
-
-    <img src="assets/images/testimonial-john.jpg">
-    <h3>John Smith</h3>
-    <h3>4 Time Escaper</h3>
-    <p>&ldquo;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur.&rdquo;</p>
-
-    <img src="assets/images/testimonial-cat.jpg">
-    <h3>Cat McKitty</h3>
-    <h3>6 Time Escaper</h3>
-    <p>&ldquo;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.&rdquo;</p>
-  </div>
-
-  <footer>
-    <p>Copyright &copy; 2019 Clear View Escapes. All rights reserved. <a href="#">Get in Touch</a></p>
-  </footer>
-  <!-- Leave this commented out HTML here until you need it for an upcoming "modal" lesson
-  <div class="modal">
-    <div class="modal__inner">
-      <h2 class="section-title section-title--blue section-title--less-margin"><img src="assets/images/icons/mail.svg" class="section-title__icon"> Get in <strong>Touch</strong></h2>
-      <div class="wrapper wrapper--narrow">
-        <p class="modal__description">We will have an online order system in place soon. Until then, connect with us on any of the platforms below!</p>
-      </div>
-
-      <div class="social-icons">
-        <a href="#" class="social-icons__icon"><img src="assets/images/icons/facebook.svg" alt="Facebook"></a>
-        <a href="#" class="social-icons__icon"><img src="assets/images/icons/twitter.svg" alt="Twitter"></a>
-        <a href="#" class="social-icons__icon"><img src="assets/images/icons/instagram.svg" alt="Instagram"></a>
-        <a href="#" class="social-icons__icon"><img src="assets/images/icons/youtube.svg" alt="YouTube"></a>
-      </div>
-    </div>
-    <div class="modal__close">X</div>
-  </div>
-  This is the end of the "modal" reference HTML -->
-  <script src="bundled.js"></script>
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 </body>
-</html>
+<html>
