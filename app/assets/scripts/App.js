@@ -1,1 +1,1 @@
-alert("The sky is red")
+import '../styles/styles.css'
